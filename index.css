@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+
+     height: 400px;
+     width: 800px;
+     display: flex;
+     
+     overflow: hidden;
+     margin: auto;
+     border: 5px solid black;
+    
+}
+.img{
+   
+    transition:all 0.5s ease-in-out;
+   
+}
+.btn-container{
+    position: absolute;
+
+}
+.prev-btn,.nxt-btn{
+    position: relative;
+    bottom: 200px;
+    left: 370px;
+    border-radius: 50%;
+    outline: none;
+    border-style: none;
+    
+    background-color: #FEFCF3;
+    opacity: 0.6;
+    
+        
+}
+.nxt-btn{
+    position: relative;
+   
+    left: 1100px
+}
